@@ -1,0 +1,132 @@
+/*  header */
+body{
+	background-color: #eceef1;
+}
+header{
+	margin-top: 50px;
+	margin-bottom: 20px
+}
+.header--banner{
+	
+}
+.header--infor__login{
+	text-align: right;
+}
+.header--infor__time{
+	margin-top: 30px;
+}
+.header--infor__time > div{
+	font-size: 12px;
+	text-align: right;
+}
+/* phan menu */
+
+.menu .nav-item .nav-link{
+	font-size: 12px;
+	color: black;
+} 
+.menu .nav-item .dropdown-menu a{
+	font-size: 12px;
+	color: black;
+}
+
+
+/* main*/
+main{
+	margin-top: 20px;
+}
+main .container{
+	border: 1px 
+	background-color: white;
+}
+
+/* danh sach */
+.danhsach table{
+	background-color: white;
+}
+
+.bSVHT--btn__search{
+	margin-top: 32px;
+}
+.KQPK--main > .container{
+	background-color: white;
+}
+
+
+.main-content {
+	min-height: 500px;
+	max-width: 700px;
+	margin-top: 70px;
+}
+
+.list {
+	max-width: 800px;
+}
+
+.form {
+	max-width: 450px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.table th, td {
+   text-align: center;   
+}
+
+.tracuu {
+	max-width: 800px;
+}
+
+.field-error {
+	border: 1px solid #ff0000;
+	margin-bottom: 10px;	
+}
+
+.menu {
+*{
+  margin: 0;
+  padding :0;
+}
+body{
+  font-family: san-serif;
+  color:#333;
+}
+
+#menu ul{
+  list-style-type:none;
+  background:#1f568B;
+  text-align: center;
+ 
+}
+
+#menu ul li{
+  color : #f1f1f1;
+  display:inline-table;
+  width :120px;
+  height:50px;
+  line-height:50px;
+  position:relative;
+}
+
+#menu ul li a{
+  color : #f1f1f1;
+  text-decoration :none;
+  display : block;
+}
+
+#menu ul li a:hover{
+  background:#f1f1f1;
+  color :#333;
+}
+
+#menu ul li > .sub-menu{
+  display:none;
+  position:absolute;
+}
+
+#menu ul li:hover .sub-menu{
+  display:block;
+}
+
