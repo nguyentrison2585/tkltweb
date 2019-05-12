@@ -77,7 +77,7 @@
                                     </tbody>
                                 </table>
                                 @if(!empty($item))
-                                    <h4 class="pull-right">Tổng số TC đã đăng ký: {{$count_tc}}</h4>
+                                    <!-- <h4 class="pull-right">Tổng số TC đã đăng ký: {{$count_tc}}</h4> -->
                                     <form action="/dang-ky-hoc-phan-tctd" method="POST">
                                         <input type="hidden" name="ma_hoc_phan"
                                                value="{{ isset($_GET['ma_hoc_phan']) ? $_GET['ma_hoc_phan'] : '' }}">
