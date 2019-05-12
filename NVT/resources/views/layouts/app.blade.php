@@ -144,11 +144,11 @@
                                 Tra cứu thời khóa biểu
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link {{(strpos(Request::url(), '/tra-cuu-ket-qua-phan-khoa')) ? 'active' : ''}}" href="/tra-cuu-ket-qua-phan-khoa">
                                 Tra cứu kết quả phân khoa viện
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link {{(strpos(Request::url(), '/tra-cuu-sinh-vien-dang-ky-hoc-tap')) ? 'active' : ''}}" href="/tra-cuu-sinh-vien-dang-ky-hoc-tap">
                                 SV đăng ký học tập
